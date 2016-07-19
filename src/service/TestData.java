@@ -131,43 +131,5 @@ public class TestData {
 		System.out.println("Text file storage synchronized");
 	}
 
-	// private static void writeToTxt(String toFile, JSONObject obj) {
-	// String total = "";
-	// if (new File(toFile).exists()) {
-	// try (BufferedReader br = new BufferedReader(new FileReader(new
-	// File(toFile)))) {
-	// StringBuilder sb = new StringBuilder();
-	// String line = br.readLine();
-	// while (line != null) {
-	// sb.append(line);
-	// line = br.readLine();
-	// }
-	// total = sb.toString();
-	// } catch (IOException e) {
-	// e.printStackTrace();
-	// }
-	// }
-	// try (FileWriter file = new FileWriter(new File(toFile))) {
-	// file.write(total);
-	// file.write(obj.toJSONString());
-	// file.flush();
-	// } catch (IOException e1) {
-	// e1.printStackTrace();
-	// }
-	// }
-
-	// private static void writeToTxt(String toFile, List<JSONObject> obj) {
-	// if (new File(toFile).exists()) {
-	// return;
-	// }
-	// try (FileWriter file = new FileWriter(new File(toFile), true)) {
-	// for (JSONObject jsonObject : obj) {
-	// file.write(jsonObject.toJSONString());
-	// }
-	// file.flush();
-	// } catch (IOException e1) {
-	// e1.printStackTrace();
-	// }
-	// }
 
 }
